@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+h1 {
+  font-size: 48px;
+  background: -webkit-linear-gradient(#f203ff, #00d5ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+h3 {
+  font-size: 25px;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.head {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+.user-input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 5px solid white;
+  padding: 20px;
+}
+.images > div > img {
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  transition: transform 1s linear;
+}
+.images > div > img:hover {
+  transform: rotate(90deg);
+}
+.images {
+  color: white;
+  background-color: rgb(31, 2, 2);
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  text-align: center;
+  border: 5px solid white;
+}
+.outline {
+  cursor: pointer;
+  display: flex;
+  border: 5px solid wheat;
+  padding: 15px;
+  margin: 10px;
+}
+.submit-button {
+  color: rgb(255, 255, 255);
+  width: 90%;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 25px;
+  text-transform: uppercase;
+  background: rgb(56, 36, 218);
+  background: linear-gradient(
+    90deg,
+    rgba(56, 36, 218, 1) 0%,
+    rgba(96, 6, 6, 1) 76%
+  );
+}
+.button {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
